@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+.mainheader {
+    height: 65px;
+    position: sticky;
+    top: 0;
+    background: #1e1f26;
+}
+
+#main {
+    background-color: #eeeeee;
+    max-width: 97%;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+#title{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+#little-note{
+    text-align: center;
+    padding: 25px 0;
+    letter-spacing: 1.5px;
+}
+
+figure{
+    padding: 30px 0;
+    background-color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+figcaption{
+    /* background-color: yellow; */
+    
+}
+
+#img-div{
+    width: 96%;
+    /* background-color: white; */
+    margin: auto;
+    /* display: block; */
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    /* text-align: center; */
+    margin: 0 auto;
+
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 18px;
+    padding: 3px;
+}
+
+#tribute-info {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#subheading {
+    /* text-align: center; */
+    display: block;
+    font-size: 1.17em;
+    padding-left: 20px;
+    font-weight: 700;
+    margin: 3em auto;
+}
+
+h3{
+    text-align: center;
+    font-size: 1em;
+}
+
+
+#tribute-info ul {
+    padding: 0 20px;
+}
+
+li {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+a {
+    color: #477ca7;
+    text-decoration: none;
+}
+
+blockquote{
+    text-align: center;
+}
+
+cite{
+    margin-top: 3px;
+}
+
+.further-more{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* MEDIA QUERIES go below */
+
+@media (max-width: 690px) {
+    #img-div{
+        width: 80%;
+        margin: auto;
+    }    
+
+    img {
+        width: 90%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    
+    }
+
+}
+
+@media (min-width: 690px) {
+    #img-div{
+        width: 80%;
+        margin: auto;
+    }    
+
+    img {
+        width: 90%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    
+    }
+
+}
+
